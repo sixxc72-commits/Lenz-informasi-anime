@@ -6,14 +6,14 @@ import { FAB } from '@/components/FAB';
 import { RegisterSW } from '@/components/RegisterSW';
 
 export const metadata: Metadata = {
-  title: 'AniQueue — Dashboard Uploader Anime',
+  title: 'Lenz — Dashboard Uploader Anime',
   description:
     'Database anime lengkap, jadwal tayang waktu Indonesia (WIB/WITA/WIT), countdown realtime, dan dashboard uploader anime ongoing.',
   manifest: '/manifest.json',
-  applicationName: 'AniQueue',
+  applicationName: 'Lenz',
   appleWebApp: { capable: true, title: 'AniQueue', statusBarStyle: 'black-translucent' },
   openGraph: {
-    title: 'AniQueue',
+    title: 'Lenz',
     description: 'Dashboard uploader anime & database anime lengkap',
     type: 'website',
   },
