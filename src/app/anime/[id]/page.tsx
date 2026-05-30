@@ -6,10 +6,12 @@ import { StatusPicker } from '@/components/StatusPicker';
 import { useAppStore } from '@/store/useAppStore';
 import { Star, Users, Trophy, Heart } from 'lucide-react';
 import Link from 'next/link';
-import { use } from 'react';
-
-export default function AnimeDetail({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = use(params);
+export default function AnimeDetail({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const { id } = params;
   const upsert = useAppStore((s) => s.upsert);
 
   const { data: full } = useQuery({ queryKey: ['anime', id], queryFn: () => jikan.detail(id) });
