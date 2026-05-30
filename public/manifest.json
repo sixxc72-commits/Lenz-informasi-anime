@@ -1,7 +1,7 @@
 {
-  "name": "AniQueue — Dashboard Uploader Anime",
-  "short_name": "AniQueue",
-  "description": "Database anime lengkap & dashboard uploader anime ongoing untuk Indonesia.",
+  "name": "Lenz — Dashboard Uploader Anime",
+  "short_name": "Lenz",
+  "description": "Database anime lengkap & dashboard uploader anime ongoing.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a14",
